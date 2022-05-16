@@ -10,7 +10,7 @@ import '../App.css';
     return (
       <div className="container-links">
          {links.map((e) =>{
-            return <a key={e.name} href={e.link} target="_blank">{e.name}</a>
+            return <a key={e.name} href={e.link}>{e.name}</a>
          })}
         </div>
     );
