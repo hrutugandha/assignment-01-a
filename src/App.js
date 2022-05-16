@@ -7,8 +7,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>React Intro</h1>
-        <MobileOS/>
         <Navbar/>
+        <MobileOS/>
       </header>
     </div>
   );
